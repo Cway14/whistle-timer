@@ -1,2 +1,2 @@
-# whistle-timer
-A randomly timed whistle to help work on face offs
+# Whistle-timer
+A IOS app with a randomly timed, adjustable whisle to help practice lacrosse face offs at home
