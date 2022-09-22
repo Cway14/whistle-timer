@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0968B71D28DAD8F400C577C3 /* Whistle Blow Sound(1).wav in Resources */ = {isa = PBXBuildFile; fileRef = 0968B71C28DAD8F300C577C3 /* Whistle Blow Sound(1).wav */; };
+		0968B71F28DAD91200C577C3 /* Whistle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0968B71E28DAD91200C577C3 /* Whistle.wav */; };
 		09CD95A328DA6A720038BA43 /* Whistle_TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CD95A228DA6A720038BA43 /* Whistle_TimerApp.swift */; };
 		09CD95A528DA6A720038BA43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CD95A428DA6A720038BA43 /* ContentView.swift */; };
 		09CD95A728DA6A740038BA43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CD95A628DA6A740038BA43 /* Assets.xcassets */; };
 		09CD95AA28DA6A740038BA43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CD95A928DA6A740038BA43 /* Preview Assets.xcassets */; };
+		09CD95B128DA6F540038BA43 /* ParameterEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CD95B028DA6F540038BA43 /* ParameterEditorView.swift */; };
+		09CD95B528DA70030038BA43 /* ParameterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CD95B428DA70030038BA43 /* ParameterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0968B71C28DAD8F300C577C3 /* Whistle Blow Sound(1).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Whistle Blow Sound(1).wav"; sourceTree = "<group>"; };
+		0968B71E28DAD91200C577C3 /* Whistle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Whistle.wav; sourceTree = "<group>"; };
 		09CD959F28DA6A720038BA43 /* Whistle Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whistle Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09CD95A228DA6A720038BA43 /* Whistle_TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whistle_TimerApp.swift; sourceTree = "<group>"; };
 		09CD95A428DA6A720038BA43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		09CD95A628DA6A740038BA43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09CD95A928DA6A740038BA43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09CD95B028DA6F540038BA43 /* ParameterEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEditorView.swift; sourceTree = "<group>"; };
+		09CD95B428DA70030038BA43 /* ParameterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,10 @@
 			children = (
 				09CD95A228DA6A720038BA43 /* Whistle_TimerApp.swift */,
 				09CD95A428DA6A720038BA43 /* ContentView.swift */,
+				09CD95B028DA6F540038BA43 /* ParameterEditorView.swift */,
+				09CD95B428DA70030038BA43 /* ParameterViewModel.swift */,
 				09CD95A628DA6A740038BA43 /* Assets.xcassets */,
+				0968B71E28DAD91200C577C3 /* Whistle.wav */,
 				09CD95A828DA6A740038BA43 /* Preview Content */,
 			);
 			path = "Whistle Timer";
@@ -62,6 +73,7 @@
 		09CD95A828DA6A740038BA43 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				0968B71C28DAD8F300C577C3 /* Whistle Blow Sound(1).wav */,
 				09CD95A928DA6A740038BA43 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -125,6 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0968B71F28DAD91200C577C3 /* Whistle.wav in Resources */,
+				0968B71D28DAD8F400C577C3 /* Whistle Blow Sound(1).wav in Resources */,
 				09CD95AA28DA6A740038BA43 /* Preview Assets.xcassets in Resources */,
 				09CD95A728DA6A740038BA43 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09CD95B528DA70030038BA43 /* ParameterViewModel.swift in Sources */,
+				09CD95B128DA6F540038BA43 /* ParameterEditorView.swift in Sources */,
 				09CD95A528DA6A720038BA43 /* ContentView.swift in Sources */,
 				09CD95A328DA6A720038BA43 /* Whistle_TimerApp.swift in Sources */,
 			);
